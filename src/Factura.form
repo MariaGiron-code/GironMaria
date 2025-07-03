@@ -70,7 +70,7 @@
           <text value="IVA"/>
         </properties>
       </component>
-      <component id="4166b" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+      <component id="4166b" class="javax.swing.JTextField" binding="textcodigoProducto">
         <constraints>
           <grid row="1" column="1" row-span="1" col-span="7" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
@@ -78,7 +78,7 @@
         </constraints>
         <properties/>
       </component>
-      <component id="f139b" class="javax.swing.JTextField" binding="textField2" default-binding="true">
+      <component id="f139b" class="javax.swing.JTextField" binding="textProducto" custom-create="true">
         <constraints>
           <grid row="2" column="2" row-span="1" col-span="6" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
@@ -86,7 +86,7 @@
         </constraints>
         <properties/>
       </component>
-      <component id="ea057" class="javax.swing.JTextField" binding="textField3" default-binding="true">
+      <component id="ea057" class="javax.swing.JTextField" binding="textPrecio">
         <constraints>
           <grid row="3" column="3" row-span="1" col-span="5" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
@@ -94,7 +94,7 @@
         </constraints>
         <properties/>
       </component>
-      <component id="ba32a" class="javax.swing.JTextField" binding="textField4" default-binding="true">
+      <component id="ba32a" class="javax.swing.JTextField" binding="textcantidad">
         <constraints>
           <grid row="4" column="4" row-span="1" col-span="4" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
@@ -102,7 +102,7 @@
         </constraints>
         <properties/>
       </component>
-      <component id="2acae" class="javax.swing.JTextField" binding="textField5" default-binding="true">
+      <component id="2acae" class="javax.swing.JTextField" binding="textTotal">
         <constraints>
           <grid row="5" column="5" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
@@ -115,6 +115,7 @@
           <grid row="9" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <background color="-12693820"/>
           <text value="Calcular Total"/>
         </properties>
       </component>
@@ -123,6 +124,7 @@
           <grid row="10" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
+          <background color="-11875117"/>
           <text value="Regresar al Menu"/>
         </properties>
       </component>
@@ -134,13 +136,15 @@
           <text value="Precio:"/>
         </properties>
       </component>
-      <component id="bbfdb" class="javax.swing.JTextField" binding="textField7" default-binding="true">
+      <component id="bbfdb" class="javax.swing.JTextField" binding="textt">
         <constraints>
           <grid row="8" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
             <preferred-size width="150" height="-1"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <editable value="false"/>
+        </properties>
       </component>
     </children>
   </grid>

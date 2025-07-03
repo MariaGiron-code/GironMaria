@@ -20,7 +20,8 @@ public class login extends JFrame {
         accesoButton.addActionListener(new ActionListener( ) {
             @Override
             public void actionPerformed(ActionEvent e) {
-                String text = textUsuario.getText();
+                String usuario = textUsuario.getText();
+                String password = textPassword.getText();
 
             }
         });
